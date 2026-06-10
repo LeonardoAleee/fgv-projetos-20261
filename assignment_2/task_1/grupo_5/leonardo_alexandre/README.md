@@ -60,12 +60,6 @@ python scripts/simulate_new_orders.py --count 5 --seed 42
 python scripts/validate_incremental_source.py --require-pending
 ```
 
-Alternativa SQL para o passo 1:
-
-```bash
-mysql -h <DB_HOST> -u <DB_USER> -p classicmodels < sql/init_watermark.sql
-```
-
 ## Tabela `etl_watermark`
 
 | Coluna | Descrição |
