@@ -9,7 +9,7 @@ Reutiliza o RDS do Assignment 1 (`classicmodels`), script incremental em PySpark
 Árvore do que **vai no repositório** (commit). Arquivos locais/sensíveis ficam no `.gitignore`.
 
 ```text
-grupo_5/leonardo_alexandre/
+grupo_5/final/
 ├── .gitignore
 ├── README.md
 ├── glue/
