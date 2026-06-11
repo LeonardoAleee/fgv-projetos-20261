@@ -104,7 +104,7 @@ Na 2ª execução, apenas pedidos com `orderDate` **estritamente maior** que o w
 - **Cron (UTC):** `cron(0 12 ? * MON *)` — semanal, segunda 12:00 UTC.
 - **Fluxo:** EventBridge → `grupo5-a2-task2-etl-workflow` → trigger EVENT → job `grupo5-a2-task2-incremental-etl`.
 
-Teste manual pelo console (EventBridge → regra → **Send event**) ou aguarde o cron. Registre o Job Run ID em `evidence/run_log.md` quando testar.
+Teste manualmente pelo console (EventBridge → regra → **Send event**) ou aguarde o cron. Registre o Job Run ID em `evidence/run_log.md` quando testar.
 
 ## Athena (consulta de partições)
 
